@@ -1,0 +1,19 @@
+PODS:
+  - RealReachability (1.1.8):
+    - RealReachability/Connection (= 1.1.8)
+    - RealReachability/Ping (= 1.1.8)
+  - RealReachability/Connection (1.1.8)
+  - RealReachability/Ping (1.1.8)
+  - RTRootNavigationController (0.5.22)
+
+DEPENDENCIES:
+  - RealReachability (~> 1.1.8)
+  - RTRootNavigationController (~> 0.5.22)
+
+SPEC CHECKSUMS:
+  RealReachability: e6c8a2bbffa316006e8c282efc1ee2567d61a920
+  RTRootNavigationController: cf134c044a8ce14d97fc668847ed4567efc53f91
+
+PODFILE CHECKSUM: 218187d6f845dd2848279ffc5db6ce2e8f8d5eb8
+
+COCOAPODS: 1.2.0.beta.3

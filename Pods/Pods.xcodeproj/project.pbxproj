@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		074EF599D7ED3DB271E7B75818BDE7B1 /* ReachStateLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 138A9E11318A0FE230DFF5CE88473B23 /* ReachStateLoading.m */; };
+		08C726BB9077E3B27D7E136530A3FFFA /* PingHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FCBAC010A7AD9CB787ACA7DF89B62CB /* PingHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		103B87778898AA0D44808EDE818EB785 /* RTRootNavigationController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1607FB84AFA244434A5CCD336AA59EF9 /* RTRootNavigationController-dummy.m */; };
+		1241F1514B48EA0878A9E8E514DF4A6E /* ReachState.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B8B74DDFEF7152676270521B9B73502 /* ReachState.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		14E4C1C92B004060D916B4FE35E8B6F4 /* UIViewController+RTRootNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4777BB4CCA154BCBD70686915414B27A /* UIViewController+RTRootNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EA760A006551499DDEF5EBBEC8F44F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		1F8B1F0D32E9B3CF358DEFDE1BFC6AB3 /* RTRootNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = A64279AF28CF5A8C447FC5A935DD970A /* RTRootNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27D7033F4E423050B6B9748773EC77D2 /* PingFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 44F912C850E0D9A1656CFBBB4A943073 /* PingFoundation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3E23611439BD4A07D0E616382C608907 /* FSMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = C1DD798E7223CE41A42F9302DB2A8067 /* FSMDefines.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46A022F72B90CE37B48FA90F8C5524A5 /* RealReachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3BC54B208FEF964B0533B0A7CCD6A9 /* RealReachability-dummy.m */; };
+		51AA965135AB2360C3332538AE8F65EF /* ReachStateUnReachable.m in Sources */ = {isa = PBXBuildFile; fileRef = 658108A37F4F72016506B068BAC4A6FE /* ReachStateUnReachable.m */; };
+		51D1D631284D40DD9AB218B14FA5A732 /* FSMEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = E4FE6FF51DAA1CE0CB8EB2C2287A75C6 /* FSMEngine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		523C345DFB66C7505E11EC7836211F02 /* FSMStateUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 823DC2A5841DA0C993F1BDEB996E08C4 /* FSMStateUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		55327C772D88DF532A7F225DEDD46B53 /* ReachStateWWAN.m in Sources */ = {isa = PBXBuildFile; fileRef = C70F553B8A478EE5E9B10311E7E4D7C7 /* ReachStateWWAN.m */; };
+		55991F687B9E46A14F74B7D5B43A788D /* LocalConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = A7ED1DF120D699B96FE29039C5E8EEF0 /* LocalConnection.m */; };
+		57C0BA636956F42976DD2C3AA44E8854 /* PingFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9700FB91924A80A88F7570E1E36C857C /* PingFoundation.m */; };
+		6D2C07368FBDFD97AEE5A6CAD9C8AA6A /* ReachState.m in Sources */ = {isa = PBXBuildFile; fileRef = 97683DC63A4D303A1059B2FE2B9C2FE3 /* ReachState.m */; };
+		6F3CCE7325E379839CAF42B2B2C11E5E /* ReachStateLoading.h in Headers */ = {isa = PBXBuildFile; fileRef = F58BB24195BDA5AB95B17603EA5F61A5 /* ReachStateLoading.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		78A99021BCADEACE1BB8D53BEA9D807A /* ReachStateWIFI.h in Headers */ = {isa = PBXBuildFile; fileRef = BD3731E0280F41C5A8D2A975B764AB92 /* ReachStateWIFI.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7B75A3A41BFB5687FBED1211AE2CE067 /* RealReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FFF8A59FC6DE66D6677E1924DBD8C /* RealReachability.m */; };
+		8530E889870E82FECBFB25ECA94E0229 /* LocalConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C708B581CF5215CC942D037CE2D2EB5 /* LocalConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B74D8A65E4C72F09EAE4B92B22BD859 /* RealReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DDFC941579AC56D96F941AA9277272A /* RealReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		917B577779DB326343845993539E0C07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		958CDC4797A9D6F2998402273FE16E9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		966BFBC62FA6BC3CD3A1B338759D3E74 /* FSMEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 213AA09D67FB39C6794C8759581F48D2 /* FSMEngine.m */; };
+		96A53921D8E35400008FC4C2C120367E /* ReachStateUnloaded.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F94764BE75631AD47CF407F01B8D8AF /* ReachStateUnloaded.m */; };
+		B7A8EEC8C9614BF34401D5E7EC1039C2 /* ReachStateUnloaded.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A71DABA2615BA512A32CB449525EA9 /* ReachStateUnloaded.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B9F2C0A4864735DC4680297F6103B105 /* UIViewController+RTRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3162DFCD54060864092CCCE050F867 /* UIViewController+RTRootNavigationController.m */; };
+		C320ADCC9827A26C8A527BDE8F6EA8C7 /* Pods-Teacher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D16A89FA846F526DE24141B32AABB02 /* Pods-Teacher-dummy.m */; };
+		C4C20C730C6CD0754A6CC80F54A3987C /* RTRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 940EA675BFA422FF111DC1A13E0F15FF /* RTRootNavigationController.m */; };
+		D0718A8FE6C016F5A5EC03A68FA65ED9 /* PingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 285754E89464202D4ACF2A890C99F758 /* PingHelper.m */; };
+		D2BAC8DA23801F19D84D64A24CD80984 /* FSMStateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC614AAFEABEA04F9493DCA592BFFEF /* FSMStateUtil.m */; };
+		DA7B749BE99FF75BB038E0D4C73C2FB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		EB4196D948CD6034C9DFBFE329EB532D /* ReachStateUnReachable.h in Headers */ = {isa = PBXBuildFile; fileRef = FF15D431992EADE337C79FB9BD647275 /* ReachStateUnReachable.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F0935214D2A4352229AB63B1CD6171E9 /* ReachStateWWAN.h in Headers */ = {isa = PBXBuildFile; fileRef = 224D4EF5995434A85DF8EFA779297A34 /* ReachStateWWAN.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FA92FA1195A172A7C0A1BECF5DD67268 /* ReachStateWIFI.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2AD27150DC024A49C2EE3D63252C7A /* ReachStateWIFI.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7C4D26CAE9EB0482FA9D8D68AEC134A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 188E956FF4FB22B21E76569FAA9EB6B2;
+			remoteInfo = RTRootNavigationController;
+		};
+		D4EB6ADB64BD8289E07F846389EB0E85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E5BC5620DBC905EB9E6AA7D27C03B3B;
+			remoteInfo = RealReachability;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		089766C0348CCB81C6423B46BFB11975 /* libPods-Teacher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Teacher.a"; path = "libPods-Teacher.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DC3FD8B92D8DE0DD3D5CF836F48CF30 /* Pods-Teacher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Teacher.debug.xcconfig"; sourceTree = "<group>"; };
+		138A9E11318A0FE230DFF5CE88473B23 /* ReachStateLoading.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachStateLoading.m; path = RealReachability/FSM/ReachStateLoading.m; sourceTree = "<group>"; };
+		1607FB84AFA244434A5CCD336AA59EF9 /* RTRootNavigationController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RTRootNavigationController-dummy.m"; sourceTree = "<group>"; };
+		1FCBAC010A7AD9CB787ACA7DF89B62CB /* PingHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PingHelper.h; path = RealReachability/Ping/PingHelper.h; sourceTree = "<group>"; };
+		213AA09D67FB39C6794C8759581F48D2 /* FSMEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSMEngine.m; path = RealReachability/FSM/FSMEngine.m; sourceTree = "<group>"; };
+		224D4EF5995434A85DF8EFA779297A34 /* ReachStateWWAN.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachStateWWAN.h; path = RealReachability/FSM/ReachStateWWAN.h; sourceTree = "<group>"; };
+		285754E89464202D4ACF2A890C99F758 /* PingHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PingHelper.m; path = RealReachability/Ping/PingHelper.m; sourceTree = "<group>"; };
+		2AD36F32B7BA40F02EB5AF81881268DF /* Pods-Teacher-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Teacher-resources.sh"; sourceTree = "<group>"; };
+		2F94764BE75631AD47CF407F01B8D8AF /* ReachStateUnloaded.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachStateUnloaded.m; path = RealReachability/FSM/ReachStateUnloaded.m; sourceTree = "<group>"; };
+		3DDFC941579AC56D96F941AA9277272A /* RealReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RealReachability.h; path = RealReachability/RealReachability.h; sourceTree = "<group>"; };
+		44F912C850E0D9A1656CFBBB4A943073 /* PingFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PingFoundation.h; path = RealReachability/Ping/PingFoundation.h; sourceTree = "<group>"; };
+		4777BB4CCA154BCBD70686915414B27A /* UIViewController+RTRootNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+RTRootNavigationController.h"; path = "RTRootNavigationController/Classes/UIViewController+RTRootNavigationController.h"; sourceTree = "<group>"; };
+		4997E2566590432838D7B7A4280973E2 /* Pods-Teacher-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Teacher-acknowledgements.plist"; sourceTree = "<group>"; };
+		4D16A89FA846F526DE24141B32AABB02 /* Pods-Teacher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Teacher-dummy.m"; sourceTree = "<group>"; };
+		4E3162DFCD54060864092CCCE050F867 /* UIViewController+RTRootNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+RTRootNavigationController.m"; path = "RTRootNavigationController/Classes/UIViewController+RTRootNavigationController.m"; sourceTree = "<group>"; };
+		5481ED511CFC8C870646627ABF380719 /* RealReachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RealReachability.xcconfig; sourceTree = "<group>"; };
+		5F3BC54B208FEF964B0533B0A7CCD6A9 /* RealReachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RealReachability-dummy.m"; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		658108A37F4F72016506B068BAC4A6FE /* ReachStateUnReachable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachStateUnReachable.m; path = RealReachability/FSM/ReachStateUnReachable.m; sourceTree = "<group>"; };
+		663B7F57A7C0086316662B493A8DEA12 /* RTRootNavigationController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RTRootNavigationController-prefix.pch"; sourceTree = "<group>"; };
+		6B8B74DDFEF7152676270521B9B73502 /* ReachState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachState.h; path = RealReachability/FSM/ReachState.h; sourceTree = "<group>"; };
+		77F1BD80974CDFEB8C7C9B7C23FDDEC1 /* Pods-Teacher-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Teacher-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		823DC2A5841DA0C993F1BDEB996E08C4 /* FSMStateUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSMStateUtil.h; path = RealReachability/FSM/FSMStateUtil.h; sourceTree = "<group>"; };
+		83B4B6E46CF48EEE8C423F901D2F7D5D /* RealReachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RealReachability-prefix.pch"; sourceTree = "<group>"; };
+		8C708B581CF5215CC942D037CE2D2EB5 /* LocalConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LocalConnection.h; path = RealReachability/Connection/LocalConnection.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		940EA675BFA422FF111DC1A13E0F15FF /* RTRootNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTRootNavigationController.m; path = RTRootNavigationController/Classes/RTRootNavigationController.m; sourceTree = "<group>"; };
+		9700FB91924A80A88F7570E1E36C857C /* PingFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PingFoundation.m; path = RealReachability/Ping/PingFoundation.m; sourceTree = "<group>"; };
+		97683DC63A4D303A1059B2FE2B9C2FE3 /* ReachState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachState.m; path = RealReachability/FSM/ReachState.m; sourceTree = "<group>"; };
+		A64279AF28CF5A8C447FC5A935DD970A /* RTRootNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTRootNavigationController.h; path = RTRootNavigationController/Classes/RTRootNavigationController.h; sourceTree = "<group>"; };
+		A7ED1DF120D699B96FE29039C5E8EEF0 /* LocalConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LocalConnection.m; path = RealReachability/Connection/LocalConnection.m; sourceTree = "<group>"; };
+		AC9FB8B844DCD41ADD9456A580294304 /* Pods-Teacher-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Teacher-frameworks.sh"; sourceTree = "<group>"; };
+		B3A71DABA2615BA512A32CB449525EA9 /* ReachStateUnloaded.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachStateUnloaded.h; path = RealReachability/FSM/ReachStateUnloaded.h; sourceTree = "<group>"; };
+		BD3731E0280F41C5A8D2A975B764AB92 /* ReachStateWIFI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachStateWIFI.h; path = RealReachability/FSM/ReachStateWIFI.h; sourceTree = "<group>"; };
+		C1DD798E7223CE41A42F9302DB2A8067 /* FSMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSMDefines.h; path = RealReachability/FSM/FSMDefines.h; sourceTree = "<group>"; };
+		C35CFC5C8AD80BFDE2D80250295F2C60 /* RTRootNavigationController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RTRootNavigationController.xcconfig; sourceTree = "<group>"; };
+		C56FFF8A59FC6DE66D6677E1924DBD8C /* RealReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RealReachability.m; path = RealReachability/RealReachability.m; sourceTree = "<group>"; };
+		C70F553B8A478EE5E9B10311E7E4D7C7 /* ReachStateWWAN.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachStateWWAN.m; path = RealReachability/FSM/ReachStateWWAN.m; sourceTree = "<group>"; };
+		CC482D446FDC808F679EB66D810222B6 /* libRTRootNavigationController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libRTRootNavigationController.a; path = libRTRootNavigationController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0520E2323665150CD3BEA080C15C2CF /* Pods-Teacher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Teacher.release.xcconfig"; sourceTree = "<group>"; };
+		DC2AD27150DC024A49C2EE3D63252C7A /* ReachStateWIFI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReachStateWIFI.m; path = RealReachability/FSM/ReachStateWIFI.m; sourceTree = "<group>"; };
+		E165EDEC94C4FBAACFAF14233552D986 /* libRealReachability.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libRealReachability.a; path = libRealReachability.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4FE6FF51DAA1CE0CB8EB2C2287A75C6 /* FSMEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSMEngine.h; path = RealReachability/FSM/FSMEngine.h; sourceTree = "<group>"; };
+		F58BB24195BDA5AB95B17603EA5F61A5 /* ReachStateLoading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachStateLoading.h; path = RealReachability/FSM/ReachStateLoading.h; sourceTree = "<group>"; };
+		FAC614AAFEABEA04F9493DCA592BFFEF /* FSMStateUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSMStateUtil.m; path = RealReachability/FSM/FSMStateUtil.m; sourceTree = "<group>"; };
+		FF15D431992EADE337C79FB9BD647275 /* ReachStateUnReachable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachStateUnReachable.h; path = RealReachability/FSM/ReachStateUnReachable.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B52DFCB6C734A5F02066DA42CC89840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA7B749BE99FF75BB038E0D4C73C2FB9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD5ECABBDC484C8DC67BE0989CC2625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				917B577779DB326343845993539E0C07 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5FA34C55FFBFED1BB8D79C703AB608F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA760A006551499DDEF5EBBEC8F44F8 /* Foundation.framework in Frameworks */,
+				958CDC4797A9D6F2998402273FE16E9D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15405A1AC2787EDBB8FA3D6812C9F01A /* RealReachability */ = {
+			isa = PBXGroup;
+			children = (
+				C1DD798E7223CE41A42F9302DB2A8067 /* FSMDefines.h */,
+				E4FE6FF51DAA1CE0CB8EB2C2287A75C6 /* FSMEngine.h */,
+				213AA09D67FB39C6794C8759581F48D2 /* FSMEngine.m */,
+				823DC2A5841DA0C993F1BDEB996E08C4 /* FSMStateUtil.h */,
+				FAC614AAFEABEA04F9493DCA592BFFEF /* FSMStateUtil.m */,
+				6B8B74DDFEF7152676270521B9B73502 /* ReachState.h */,
+				97683DC63A4D303A1059B2FE2B9C2FE3 /* ReachState.m */,
+				F58BB24195BDA5AB95B17603EA5F61A5 /* ReachStateLoading.h */,
+				138A9E11318A0FE230DFF5CE88473B23 /* ReachStateLoading.m */,
+				B3A71DABA2615BA512A32CB449525EA9 /* ReachStateUnloaded.h */,
+				2F94764BE75631AD47CF407F01B8D8AF /* ReachStateUnloaded.m */,
+				FF15D431992EADE337C79FB9BD647275 /* ReachStateUnReachable.h */,
+				658108A37F4F72016506B068BAC4A6FE /* ReachStateUnReachable.m */,
+				BD3731E0280F41C5A8D2A975B764AB92 /* ReachStateWIFI.h */,
+				DC2AD27150DC024A49C2EE3D63252C7A /* ReachStateWIFI.m */,
+				224D4EF5995434A85DF8EFA779297A34 /* ReachStateWWAN.h */,
+				C70F553B8A478EE5E9B10311E7E4D7C7 /* ReachStateWWAN.m */,
+				3DDFC941579AC56D96F941AA9277272A /* RealReachability.h */,
+				C56FFF8A59FC6DE66D6677E1924DBD8C /* RealReachability.m */,
+				37AA45749C349171B795747E79C72830 /* Connection */,
+				3FD4A2B53F9E5F852BC9E78C772F1280 /* Ping */,
+				3A5AAD489003E271BDF9E466C338EA6D /* Support Files */,
+			);
+			name = RealReachability;
+			path = RealReachability;
+			sourceTree = "<group>";
+		};
+		37AA45749C349171B795747E79C72830 /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				8C708B581CF5215CC942D037CE2D2EB5 /* LocalConnection.h */,
+				A7ED1DF120D699B96FE29039C5E8EEF0 /* LocalConnection.m */,
+			);
+			name = Connection;
+			sourceTree = "<group>";
+		};
+		3A5AAD489003E271BDF9E466C338EA6D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5481ED511CFC8C870646627ABF380719 /* RealReachability.xcconfig */,
+				5F3BC54B208FEF964B0533B0A7CCD6A9 /* RealReachability-dummy.m */,
+				83B4B6E46CF48EEE8C423F901D2F7D5D /* RealReachability-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RealReachability";
+			sourceTree = "<group>";
+		};
+		3FD4A2B53F9E5F852BC9E78C772F1280 /* Ping */ = {
+			isa = PBXGroup;
+			children = (
+				44F912C850E0D9A1656CFBBB4A943073 /* PingFoundation.h */,
+				9700FB91924A80A88F7570E1E36C857C /* PingFoundation.m */,
+				1FCBAC010A7AD9CB787ACA7DF89B62CB /* PingHelper.h */,
+				285754E89464202D4ACF2A890C99F758 /* PingHelper.m */,
+			);
+			name = Ping;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C0DD08CC5E021803E18F0146ABEF4C5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				92E37CEE94FEF1C72214007B5B55FF07 /* Pods-Teacher */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				B6714193C7F0F98D33D29F46311D877C /* Pods */,
+				F52345F4485EE159EA1C3CAFC738C89A /* Products */,
+				4C0DD08CC5E021803E18F0146ABEF4C5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		92E37CEE94FEF1C72214007B5B55FF07 /* Pods-Teacher */ = {
+			isa = PBXGroup;
+			children = (
+				77F1BD80974CDFEB8C7C9B7C23FDDEC1 /* Pods-Teacher-acknowledgements.markdown */,
+				4997E2566590432838D7B7A4280973E2 /* Pods-Teacher-acknowledgements.plist */,
+				4D16A89FA846F526DE24141B32AABB02 /* Pods-Teacher-dummy.m */,
+				AC9FB8B844DCD41ADD9456A580294304 /* Pods-Teacher-frameworks.sh */,
+				2AD36F32B7BA40F02EB5AF81881268DF /* Pods-Teacher-resources.sh */,
+				0DC3FD8B92D8DE0DD3D5CF836F48CF30 /* Pods-Teacher.debug.xcconfig */,
+				D0520E2323665150CD3BEA080C15C2CF /* Pods-Teacher.release.xcconfig */,
+			);
+			name = "Pods-Teacher";
+			path = "Target Support Files/Pods-Teacher";
+			sourceTree = "<group>";
+		};
+		B6714193C7F0F98D33D29F46311D877C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15405A1AC2787EDBB8FA3D6812C9F01A /* RealReachability */,
+				E2B49222F79E16A03FAC7B3185C33CA3 /* RTRootNavigationController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D983ED458203469449BA7438C6F014EA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C35CFC5C8AD80BFDE2D80250295F2C60 /* RTRootNavigationController.xcconfig */,
+				1607FB84AFA244434A5CCD336AA59EF9 /* RTRootNavigationController-dummy.m */,
+				663B7F57A7C0086316662B493A8DEA12 /* RTRootNavigationController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RTRootNavigationController";
+			sourceTree = "<group>";
+		};
+		E2B49222F79E16A03FAC7B3185C33CA3 /* RTRootNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				A64279AF28CF5A8C447FC5A935DD970A /* RTRootNavigationController.h */,
+				940EA675BFA422FF111DC1A13E0F15FF /* RTRootNavigationController.m */,
+				4777BB4CCA154BCBD70686915414B27A /* UIViewController+RTRootNavigationController.h */,
+				4E3162DFCD54060864092CCCE050F867 /* UIViewController+RTRootNavigationController.m */,
+				D983ED458203469449BA7438C6F014EA /* Support Files */,
+			);
+			name = RTRootNavigationController;
+			path = RTRootNavigationController;
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F52345F4485EE159EA1C3CAFC738C89A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				089766C0348CCB81C6423B46BFB11975 /* libPods-Teacher.a */,
+				E165EDEC94C4FBAACFAF14233552D986 /* libRealReachability.a */,
+				CC482D446FDC808F679EB66D810222B6 /* libRTRootNavigationController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4CB8DED4A961965C7AC38A80501E7579 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E23611439BD4A07D0E616382C608907 /* FSMDefines.h in Headers */,
+				51D1D631284D40DD9AB218B14FA5A732 /* FSMEngine.h in Headers */,
+				523C345DFB66C7505E11EC7836211F02 /* FSMStateUtil.h in Headers */,
+				8530E889870E82FECBFB25ECA94E0229 /* LocalConnection.h in Headers */,
+				27D7033F4E423050B6B9748773EC77D2 /* PingFoundation.h in Headers */,
+				08C726BB9077E3B27D7E136530A3FFFA /* PingHelper.h in Headers */,
+				1241F1514B48EA0878A9E8E514DF4A6E /* ReachState.h in Headers */,
+				6F3CCE7325E379839CAF42B2B2C11E5E /* ReachStateLoading.h in Headers */,
+				B7A8EEC8C9614BF34401D5E7EC1039C2 /* ReachStateUnloaded.h in Headers */,
+				EB4196D948CD6034C9DFBFE329EB532D /* ReachStateUnReachable.h in Headers */,
+				78A99021BCADEACE1BB8D53BEA9D807A /* ReachStateWIFI.h in Headers */,
+				F0935214D2A4352229AB63B1CD6171E9 /* ReachStateWWAN.h in Headers */,
+				8B74D8A65E4C72F09EAE4B92B22BD859 /* RealReachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39768572044F6D1F5F9595FA1566B98 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F8B1F0D32E9B3CF358DEFDE1BFC6AB3 /* RTRootNavigationController.h in Headers */,
+				14E4C1C92B004060D916B4FE35E8B6F4 /* UIViewController+RTRootNavigationController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		08408F82D17C850B79A3CC48D887B762 /* Pods-Teacher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFDD5D7BC2D5630AAA6017D246647699 /* Build configuration list for PBXNativeTarget "Pods-Teacher" */;
+			buildPhases = (
+				09CDF1963B57D948F7CF38EDFBB76A42 /* Sources */,
+				1B52DFCB6C734A5F02066DA42CC89840 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70E63F6C9C46473214CF7727C77E7B15 /* PBXTargetDependency */,
+				4F4A95DB31DA02A6773DB224E339E40F /* PBXTargetDependency */,
+			);
+			name = "Pods-Teacher";
+			productName = "Pods-Teacher";
+			productReference = 089766C0348CCB81C6423B46BFB11975 /* libPods-Teacher.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		188E956FF4FB22B21E76569FAA9EB6B2 /* RTRootNavigationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A409627E324A67A83C62F70AE6226320 /* Build configuration list for PBXNativeTarget "RTRootNavigationController" */;
+			buildPhases = (
+				0F67E581B08374C9050012036FD47A80 /* Sources */,
+				F5FA34C55FFBFED1BB8D79C703AB608F /* Frameworks */,
+				D39768572044F6D1F5F9595FA1566B98 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RTRootNavigationController;
+			productName = RTRootNavigationController;
+			productReference = CC482D446FDC808F679EB66D810222B6 /* libRTRootNavigationController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1E5BC5620DBC905EB9E6AA7D27C03B3B /* RealReachability */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 985C34B11FA48E99007D9A35FD6A7B7A /* Build configuration list for PBXNativeTarget "RealReachability" */;
+			buildPhases = (
+				F0939B894EE3053C30F66C06E9F83301 /* Sources */,
+				EFD5ECABBDC484C8DC67BE0989CC2625 /* Frameworks */,
+				4CB8DED4A961965C7AC38A80501E7579 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealReachability;
+			productName = RealReachability;
+			productReference = E165EDEC94C4FBAACFAF14233552D986 /* libRealReachability.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F52345F4485EE159EA1C3CAFC738C89A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08408F82D17C850B79A3CC48D887B762 /* Pods-Teacher */,
+				1E5BC5620DBC905EB9E6AA7D27C03B3B /* RealReachability */,
+				188E956FF4FB22B21E76569FAA9EB6B2 /* RTRootNavigationController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09CDF1963B57D948F7CF38EDFBB76A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C320ADCC9827A26C8A527BDE8F6EA8C7 /* Pods-Teacher-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F67E581B08374C9050012036FD47A80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				103B87778898AA0D44808EDE818EB785 /* RTRootNavigationController-dummy.m in Sources */,
+				C4C20C730C6CD0754A6CC80F54A3987C /* RTRootNavigationController.m in Sources */,
+				B9F2C0A4864735DC4680297F6103B105 /* UIViewController+RTRootNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0939B894EE3053C30F66C06E9F83301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966BFBC62FA6BC3CD3A1B338759D3E74 /* FSMEngine.m in Sources */,
+				D2BAC8DA23801F19D84D64A24CD80984 /* FSMStateUtil.m in Sources */,
+				55991F687B9E46A14F74B7D5B43A788D /* LocalConnection.m in Sources */,
+				57C0BA636956F42976DD2C3AA44E8854 /* PingFoundation.m in Sources */,
+				D0718A8FE6C016F5A5EC03A68FA65ED9 /* PingHelper.m in Sources */,
+				6D2C07368FBDFD97AEE5A6CAD9C8AA6A /* ReachState.m in Sources */,
+				074EF599D7ED3DB271E7B75818BDE7B1 /* ReachStateLoading.m in Sources */,
+				96A53921D8E35400008FC4C2C120367E /* ReachStateUnloaded.m in Sources */,
+				51AA965135AB2360C3332538AE8F65EF /* ReachStateUnReachable.m in Sources */,
+				FA92FA1195A172A7C0A1BECF5DD67268 /* ReachStateWIFI.m in Sources */,
+				55327C772D88DF532A7F225DEDD46B53 /* ReachStateWWAN.m in Sources */,
+				46A022F72B90CE37B48FA90F8C5524A5 /* RealReachability-dummy.m in Sources */,
+				7B75A3A41BFB5687FBED1211AE2CE067 /* RealReachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F4A95DB31DA02A6773DB224E339E40F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RealReachability;
+			target = 1E5BC5620DBC905EB9E6AA7D27C03B3B /* RealReachability */;
+			targetProxy = D4EB6ADB64BD8289E07F846389EB0E85 /* PBXContainerItemProxy */;
+		};
+		70E63F6C9C46473214CF7727C77E7B15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RTRootNavigationController;
+			target = 188E956FF4FB22B21E76569FAA9EB6B2 /* RTRootNavigationController */;
+			targetProxy = 7C4D26CAE9EB0482FA9D8D68AEC134A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		38DB04E6D7F7CE2BA3812001118F2C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5481ED511CFC8C870646627ABF380719 /* RealReachability.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RealReachability/RealReachability-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		511171DDC820D22463C148940312020D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5481ED511CFC8C870646627ABF380719 /* RealReachability.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RealReachability/RealReachability-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DAB113D125AF5E30822BC5BCD3C98BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DC3FD8B92D8DE0DD3D5CF836F48CF30 /* Pods-Teacher.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CF7953F66E785E8876EB4D370D777D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D78FE11E1E1DFC9B27EC28D0D92E1449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C35CFC5C8AD80BFDE2D80250295F2C60 /* RTRootNavigationController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RTRootNavigationController/RTRootNavigationController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DBD6ADF9024F43E26CB92329255EBD13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0520E2323665150CD3BEA080C15C2CF /* Pods-Teacher.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DE7BA211F41EB7C0315E898DC4187827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C35CFC5C8AD80BFDE2D80250295F2C60 /* RTRootNavigationController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RTRootNavigationController/RTRootNavigationController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7953F66E785E8876EB4D370D777D50 /* Debug */,
+				79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		985C34B11FA48E99007D9A35FD6A7B7A /* Build configuration list for PBXNativeTarget "RealReachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				511171DDC820D22463C148940312020D /* Debug */,
+				38DB04E6D7F7CE2BA3812001118F2C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A409627E324A67A83C62F70AE6226320 /* Build configuration list for PBXNativeTarget "RTRootNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D78FE11E1E1DFC9B27EC28D0D92E1449 /* Debug */,
+				DE7BA211F41EB7C0315E898DC4187827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFDD5D7BC2D5630AAA6017D246647699 /* Build configuration list for PBXNativeTarget "Pods-Teacher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DAB113D125AF5E30822BC5BCD3C98BB /* Debug */,
+				DBD6ADF9024F43E26CB92329255EBD13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
