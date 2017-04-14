@@ -7,8 +7,9 @@
 //
 
 #import "LZMineViewController.h"
+#import "MineHeadInfoCell.h"
 
-@interface LZMineViewController ()
+@interface LZMineViewController () <UITableViewDataSource,UITableViewDelegate>
 
 @end
 
@@ -19,6 +20,39 @@
     // Do any additional setup after loading the view from its nib.
 }
 
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+
+    return 1;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+
+    return kScreen_Width/320 * 211;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    MineHeadInfoCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MineHeadInfoCell"];
+    if (!cell) {
+        cell = [[[NSBundle mainBundle] loadNibNamed:@"MineHeadInfoCell" owner:self options:nil] lastObject];
+    }
+    cell.title = @"111";
+    return cell;
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    self.navigationController.navigationBarHidden = NO;
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    self.navigationController.navigationBarHidden = YES;
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

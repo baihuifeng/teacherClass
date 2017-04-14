@@ -8,6 +8,10 @@
 
 #import "LZRootViewController.h"
 
-@interface LZHomeViewController : LZRootViewController
+@interface LZHomeViewController : LZRootViewController <UITableViewDelegate,UITableViewDataSource>
+
+
+@property (strong, nonatomic) IBOutlet UITableView *homeTableView;
+
 
 @end

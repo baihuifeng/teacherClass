@@ -10,4 +10,5 @@
 
 @interface LZMineViewController : LZRootViewController
 
+@property (strong, nonatomic) IBOutlet UITableView *mineTableView;
 @end

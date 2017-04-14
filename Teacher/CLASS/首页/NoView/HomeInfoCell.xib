@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="HomeInfoCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="99.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_touxiang_icon" translatesAutoresizingMaskIntoConstraints="NO" id="azT-qQ-l4h">
+                        <rect key="frame" x="30" y="18" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="oIW-HR-h9I"/>
+                            <constraint firstAttribute="height" constant="50" id="rL4-cM-0dk"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gi3-fo-58r">
+                        <rect key="frame" x="13" y="80" width="85" height="13"/>
+                        <color key="backgroundColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="13" id="UfA-88-8Of"/>
+                            <constraint firstAttribute="width" constant="85" id="cON-KN-pkh"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ao6-T3-HoC">
+                        <rect key="frame" x="116" y="14" width="0.5" height="70"/>
+                        <color key="backgroundColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="0.5" id="Yhx-3Z-8g2"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="完善个人信息,申请开课" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vps-se-2NB">
+                        <rect key="frame" x="139" y="25" width="173" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.41176470588235292" green="0.41176470588235292" blue="0.41176470588235292" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oFm-gF-Hse">
+                        <rect key="frame" x="139" y="56" width="81" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="81" id="Ukq-tN-G06"/>
+                            <constraint firstAttribute="height" constant="22" id="ZRN-GX-HZM"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <inset key="titleEdgeInsets" minX="-33" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <inset key="imageEdgeInsets" minX="63" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="马上申请" image="Home_Info_left_icon">
+                            <color key="titleColor" red="0.3921568627" green="0.50588235290000005" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="Vps-se-2NB" secondAttribute="trailing" id="17L-bc-n1w"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="ao6-T3-HoC" secondAttribute="bottom" constant="7.5" id="CSD-6w-TGy"/>
+                    <constraint firstItem="oFm-gF-Hse" firstAttribute="top" secondItem="Vps-se-2NB" secondAttribute="bottom" constant="11.5" id="DsS-aK-CIJ"/>
+                    <constraint firstItem="ao6-T3-HoC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="6" id="Jpy-Vk-ebQ"/>
+                    <constraint firstItem="azT-qQ-l4h" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="22" id="JqW-fa-GdZ"/>
+                    <constraint firstItem="Vps-se-2NB" firstAttribute="leading" secondItem="ao6-T3-HoC" secondAttribute="trailing" constant="22.5" id="S4b-ZJ-RQf"/>
+                    <constraint firstItem="Gi3-fo-58r" firstAttribute="centerX" secondItem="azT-qQ-l4h" secondAttribute="centerX" id="Vd2-Ca-BGZ"/>
+                    <constraint firstItem="Vps-se-2NB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="17" id="Yhl-hk-u95"/>
+                    <constraint firstItem="azT-qQ-l4h" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="biP-Lq-3Cf"/>
+                    <constraint firstItem="oFm-gF-Hse" firstAttribute="leading" secondItem="Vps-se-2NB" secondAttribute="leading" id="kHO-rr-cQl"/>
+                    <constraint firstItem="Gi3-fo-58r" firstAttribute="top" secondItem="azT-qQ-l4h" secondAttribute="bottom" constant="12" id="r93-Sm-XV6"/>
+                    <constraint firstItem="ao6-T3-HoC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="108" id="uOh-0C-F4v"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="35" y="29"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Home_Info_left_icon" width="7" height="11"/>
+        <image name="home_touxiang_icon" width="50" height="50"/>
+    </resources>
+</document>
