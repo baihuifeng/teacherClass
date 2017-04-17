@@ -40,7 +40,7 @@ fprintf(stderr, "-------\n");                                               \
 // 所有控制器的背景颜色
 #define JYControllerBackColor UICOLOR_RGB_Alpha(0xeeeeee, 1)
 //主题的颜色
-#define KThemeColor UICOLOR_RGB_Alpha(0x31c880, 1)
+#define KThemeColor UICOLOR_RGB_Alpha(0x6481F4, 1)
 //按钮选中状态
 #define KButtonSelectColor UICOLOR_RGB_Alpha(0x2ebc78, 1)
 //按钮禁止状态

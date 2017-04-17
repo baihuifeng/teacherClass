@@ -40,9 +40,9 @@
     UINavigationBar *appearance = [UINavigationBar appearance];
     // 设置文字属性
     NSMutableDictionary *textAttrs = [NSMutableDictionary dictionary];
-    textAttrs[NSForegroundColorAttributeName] = UICOLOR_RGB_Alpha(0x333333, 1);
+    textAttrs[NSForegroundColorAttributeName] = UICOLOR_RGB_Alpha(0xFFFFFF, 1);
     textAttrs[NSFontAttributeName] = [UIFont systemFontOfSize:17];
-    [appearance setBackgroundImage:[UIImage imageFromContextWithColor:UICOLOR_RGB_Alpha(0xFFFFFF, 1)] forBarMetrics:UIBarMetricsDefault];
+    [appearance setBackgroundImage:[UIImage imageFromContextWithColor:UICOLOR_RGB_Alpha(0x6481F4, 1)] forBarMetrics:UIBarMetricsDefault];
     appearance.shadowImage = [UIImage imageFromContextWithColor:[UIColor clearColor]];
     // UIOffsetZero是结构体, 只要包装成NSValue对象, 才能放进字典\数组中
     [appearance setTitleTextAttributes:textAttrs];
@@ -84,7 +84,7 @@
         //设置导航子控制器按钮的加载样式
         UINavigationItem *vcBtnItem= [viewController navigationItem];
         
-        vcBtnItem.leftBarButtonItem = [UIBarButtonItem initWithNormalImage:@"back_button" target:self isLeftButton:YES action:@selector(back)];
+        vcBtnItem.leftBarButtonItem = [UIBarButtonItem initWithNormalImage:@"backIcon" target:self isLeftButton:YES action:@selector(back)];
         
         
     }

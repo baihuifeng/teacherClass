@@ -44,13 +44,13 @@
     [super viewDidLoad];
     
     // 添加子控制器
-    [self setupChildVc:[LZHomeViewController new] title:@"首页" image:@"tabbar_one" selectedImage:@"tabbar_one_selected"];
+    [self setupChildVc:[LZHomeViewController new] title:@"首页" image:@"tab_home_icon" selectedImage:@"tab_home_icon_ed"];
 //
-    [self setupChildVc:[LZCourseViewController new] title:@"课程表" image:@"tabbar_one" selectedImage:@"tabbar_one_selected"];
+    [self setupChildVc:[LZCourseViewController new] title:@"课程表" image:@"tab_kebiao_cion" selectedImage:@"tab_kebiao_icon_ed"];
 //
-    [self setupChildVc:[LZOrderViewController new] title:@"订单中心" image:@"tabbar_one" selectedImage:@"tabbar_three_selected"];
-     [self setupChildVc:[LZPublicViewController new] title:@"生源池" image:@"tabbar_one" selectedImage:@"tabbar_four_selected"];
-     [self setupChildVc:[LZMineViewController new] title:@"我的" image:@"tabbar_one" selectedImage:@"tabbar_four_selected"];
+//    [self setupChildVc:[LZOrderViewController new] title:@"订单中心" image:@"tabbar_one" selectedImage:@"tabbar_three_selected"];
+     [self setupChildVc:[LZPublicViewController new] title:@"学生圈" image:@"tab_xuesheng_icon" selectedImage:@"tab_xuesheng_icon_ed"];
+     [self setupChildVc:[LZMineViewController new] title:@"我的" image:@"tab_mine_icon" selectedImage:@"tab_mine_icon_ed"];
     
 //    // 更换tabBar
      [self setValue:[[HHTababr alloc] init] forKey:@"tabBar"];

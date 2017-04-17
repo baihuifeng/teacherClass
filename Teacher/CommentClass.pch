@@ -16,6 +16,11 @@
 #import <UIKit/UIKit.h>
 #import "MJExtension.h"
 #import "HHTabbarViewController.h"
+#import "UILabel+YBAttributeTextTapAction.h"
 #import "MBProgressHUD.h"
+#import "NSString+stringSizeCalculate.h"
+#import "NSString+Check.h"
+#import "NSStringVerify.h"
+#import "SegmentView.h"
 
 #endif /* CommentClass_pch */
