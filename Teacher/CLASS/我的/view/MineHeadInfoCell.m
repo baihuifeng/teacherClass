@@ -30,9 +30,19 @@
     _headImgH.constant = kScreen_Width > 400 ? 86 : kScreen_Width == 375 ? 78 : 66;
     _top.constant = kScreen_Width > 400 ? -13  : -8;
 //    _heightBack.constant = kScreen_Width > 750 ? kScreen_Width/320*114 : 114;
-    _headImg.layer.cornerRadius = kScreen_Width > 400 ? 80/2 : kScreen_Width == 375 ? 78/2 : 66/2;
+    _backHeadImg.transform = CGAffineTransformScale(_headImg.transform, 10, 10);
+    
 //
     [self layoutIfNeeded];
+    
+    _headImg.layer.cornerRadius = kScreen_Width > 400 ? 80/2 : kScreen_Width == 375 ? 78/2 : 66/2;
+    
+    UIBlurEffect *beffect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleExtraLight];
+    UIVisualEffectView *view = [[UIVisualEffectView alloc] initWithEffect:beffect];
+    view.alpha = 0.7;
+    view.frame = CGRectMake(0, 0, kScreen_Width, 160);
+    
+    [self.backView addSubview:view];
     
 }
 

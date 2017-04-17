@@ -18,4 +18,8 @@
 @property (strong, nonatomic) IBOutlet NSLayoutConstraint *top;
 
 @property (nonatomic,copy) NSString *title;
+
+@property (strong, nonatomic) IBOutlet UIImageView *backHeadImg;
+@property (strong, nonatomic) IBOutlet UIView *backView;
+
 @end
