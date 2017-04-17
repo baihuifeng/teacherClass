@@ -44,7 +44,7 @@
             
             btn.titleLabel.font = [UIFont systemFontOfSize:15.0];
             [btn setTitleColor:[UIColor colorWithRed:168/255.0 green:168/255.0 blue:168/255.0 alpha:1.0] forState:UIControlStateNormal];
-            [btn setTitleColor:[UIColor colorWithRed:35/255.0 green:205/255.0 blue:119/255.0 alpha:1.0] forState:UIControlStateSelected];
+            [btn setTitleColor:[UIColor colorWithRed:100/255.0 green:129/255.0 blue:244/255.0 alpha:1.0] forState:UIControlStateSelected];
             [btn setTintColor:[UIColor clearColor]];
             [self addSubview:btn];
             [btn addTarget:self action:@selector(selectedView:) forControlEvents:UIControlEventTouchUpInside];
@@ -276,8 +276,8 @@
 
         [self addSubview:_leftRadiuLabel];
         _rightRadiuLabel = [[UILabel alloc] initWithFrame:CGRectMake(CGRectGetMaxX(_leftRadiuLabel.frame)-frame.size.width/4, 0, frame.size.width/2+frame.size.width/4, frame.size.height)];
-        _leftRadiuLabel.backgroundColor = [UIColor colorWithRed:35/255.0 green:205/255.0 blue:119/255.0 alpha:1.0];
-        _rightRadiuLabel.backgroundColor = [UIColor colorWithRed:35/255.0 green:205/255.0 blue:119/255.0 alpha:1.0];
+        _leftRadiuLabel.backgroundColor = [UIColor colorWithRed:100/255.0 green:129/255.0 blue:244/255.0 alpha:1.0];
+        _rightRadiuLabel.backgroundColor = [UIColor colorWithRed:100/255.0 green:129/255.0 blue:244/255.0 alpha:1.0];
         [self addSubview:_rightRadiuLabel];
         self.radiuType = radiuLabelType;
     }

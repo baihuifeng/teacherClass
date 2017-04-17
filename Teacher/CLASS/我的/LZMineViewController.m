@@ -12,6 +12,7 @@
 #import "LZYJViewController.h"
 #import "LZMineDangAnViewController.h"
 #import "LZMineTeacherViewController.h"
+#import "LZMineMeansController.h"
 
 @interface LZMineViewController () <UITableViewDataSource,UITableViewDelegate>
 @property (nonatomic,strong) NSArray *secondArr;
@@ -101,6 +102,13 @@
 
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    if (indexPath.section == 0) {
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"LZMineMeansController" bundle:nil];
+        LZMineMeansController *wvc = [storyboard instantiateViewControllerWithIdentifier:@"LZMineMeansController"];
+        [self.navigationController pushViewController:wvc animated:YES];
+    }
+    
     
     if (indexPath.section == 2) {
         if (indexPath.row == 3) {
